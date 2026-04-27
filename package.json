@@ -30,7 +30,8 @@
   ],
   "scripts": {
     "build": "tsc && vite build",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "tsc && vite build"
   },
   "prettier": "@vuebro/configs/prettierrc",
   "dependencies": {
@@ -44,7 +45,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@types/hash-sum": "^1.0.2",
     "@types/node": "^24.10.0",
-    "@vuebro/configs": "^1.1.59",
+    "@vuebro/configs": "jbruwes/configs",
     "eslint": "^9.39.1",
     "vite": "^7.1.12"
   }
